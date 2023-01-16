@@ -8,7 +8,17 @@ use std::iter::Sum;
 fn main() {
     println!("Hello, world!");
 
+    //match
 
+    let lear_lang = "Rust";
+
+    match lear_lang {
+        "js" => println!("We are learning Rust"),
+        "html" => println!("We are learning html"),
+        _ => println!("We are learning {}", lear_lang)
+    }
+
+    //match close
 
 
     let mut x = 5;
