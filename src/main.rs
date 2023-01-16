@@ -10,12 +10,12 @@ fn main() {
 
     //match
 
-    let lear_lang = "Rust";
+    let learn_lang = "Rust";
 
-    match lear_lang {
+    match learn_lang {
         "js" => println!("We are learning Rust"),
         "html" => println!("We are learning html"),
-        _ => println!("We are learning {}", lear_lang)
+        _ => println!("We are learning {}", learn_lang)
     }
 
     //match close
