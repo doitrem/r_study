@@ -15,7 +15,7 @@ fn main() {
     match learn_lang {
         "js" => println!("We are learning Rust"),
         "html" => println!("We are learning html"),
-        _ => println!("We are learning {}", learn_lang)
+        _ => println!("We are learning {}", learn_lang),
     }
 
     let sides: u8 = 7;
@@ -28,14 +28,11 @@ fn main() {
         4 => "Quadroangle".to_string(),
         5 => "Fiveangle".to_string(),
         _ => format!("{}-ugolnik", sides),
-    }; 
+    };
 
     print!("Yor figure {}", figure);
 
     //match close
-
-
-
 
     let mut x = 5;
 
@@ -44,8 +41,6 @@ fn main() {
     x = 6;
 
     println!("The value of x is: {}", x);
-
-
 
     println!("Hello, world! My first program!");
 
@@ -317,7 +312,7 @@ fn main() {
 
     let mut names = vec!["bread", "milk", "cheese", "apple", "noodles"];
     let guest = "Victor";
-    
+
     if names.contains(&guest) {
         print!("V spiske, GO!");
     } else {
@@ -330,7 +325,6 @@ fn main() {
     for s in before.chars().rev() {
         println!("{}", s)
     }
-
 
     fn hello() {
         println!("Hi, have a nice day!");
@@ -354,17 +348,4 @@ fn main() {
     }
 
     wich_month(55);
-
-
-
-
-
-
-
-
-
 }
-
-
-
- 
