@@ -18,7 +18,23 @@ fn main() {
         _ => println!("We are learning {}", learn_lang)
     }
 
+    let sides: u8 = 7;
+    let figure: String;
+
+    figure = match sides {
+        1 => "Line".to_string(),
+        2 => "Pryamougolnik".to_string(),
+        3 => "Triangle".to_string(),
+        4 => "Quadroangle".to_string(),
+        5 => "Fiveangle".to_string(),
+        _ => format!("{}-ugolnik", sides),
+    }; 
+
+    print!("Yor figure {}", figure);
+
     //match close
+
+
 
 
     let mut x = 5;
